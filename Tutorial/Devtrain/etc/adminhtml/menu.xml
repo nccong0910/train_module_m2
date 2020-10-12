@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ *
+ * Created By : Rohan Hapani
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/menu.xsd">
+    <menu>
+        <add id="Tutorial_Devtrain::view" title="Tutorial Devtrain" module="Tutorial_Devtrain" sortOrder="10" resource="Tutorial_Devtrain::view"/>
+        <add id="Tutorial_Devtrain::grid" title="Manage Blog Records" module="Tutorial_Devtrain" sortOrder="9" parent="Tutorial_Devtrain::view" action="blog/grid/index" resource="Tutorial_Devtrain::view"/>
+    </menu>
+</config>   

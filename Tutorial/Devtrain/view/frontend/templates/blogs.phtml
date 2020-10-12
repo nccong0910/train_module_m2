@@ -1,0 +1,22 @@
+<?php
+    $posts = $block->GetBlog();
+?>
+<table>
+    <tr>
+        <th class="blog-id">Id</th>
+        <th class="blog-name">Title</th>
+        <th>Image</th>
+        <th>Description</th>
+    </tr>
+        <?php
+            foreach ($posts as $data){
+                echo '<tr>
+                        <td>'.$data->getId().'</td>
+                        <td>'.$data->getTitle().'</td>
+                        <td>'.$data->getImage().'</td>
+                        <td>'.$data->getDescription().'</td>
+                    </tr>';
+                echo "this is page";
+            }
+        ?>
+</table>

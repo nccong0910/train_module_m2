@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <css src="Tutorial_Devtrain::css/styleTable.css"/>
+    </head>
+    <body>
+        <referenceContainer name="content">
+            <block class="Tutorial\Devtrain\Block\Bloglist" name="hello_learning_view" template="Tutorial_Devtrain::blogs.phtml"/>
+        </referenceContainer>
+    <!--  -->
+<!--         <referenceContainer name="columns.top">
+            <block class="Magento\Theme\Block\Html\Title" name="page.main.title" template="html/title.phtml"/>
+            <container name="page.messages" htmlTag="div" htmlClass="page messages">
+                <block class="Magento\Framework\View\Element\Template" name="ajax.message.placeholder" template="Magento_Theme::html/messages.phtml"/>
+                <block class="Magento\Framework\View\Element\Messages" name="messages" as="messages" template="Magento_Theme::messages.phtml"/>
+            </container>
+        </referenceContainer>
+        <referenceBlock name="page.main.title">
+            <action method="setPageTitle">
+                <argument translate="true" name="title" xsi:type="string">Blogs</argument>
+            </action>
+        </referenceBlock>
+        <referenceContainer name="content">
+            <block class="Tutorial\Devtrain\Block\Bloglist" name="ecustom_pagination" template="Tutorial_Devtrain::index.phtml"  cacheable="false" >
+            </block>
+        </referenceContainer> -->
+    <!--  -->
+    </body>
+</page>
